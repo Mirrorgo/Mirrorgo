@@ -1,25 +1,3 @@
-<button onclick="toggleLanguage('english')">English</button>
-<button onclick="toggleLanguage('chinese')">中文</button>
-
-<div id="english-section">
-This is the English version of the README.
-</div>
-
-<div id="chinese-section" style="display:none;">
-这是README的中文版。
-</div>
-
-<script>
-function toggleLanguage(language) {
-    if (language === 'english') {
-        document.getElementById('english-section').style.display = 'block';
-        document.getElementById('chinese-section').style.display = 'none';
-    } else if (language === 'chinese') {
-        document.getElementById('english-section').style.display = 'none';
-        document.getElementById('chinese-section').style.display = 'block';
-    }
-}
-</script>
 
 ===== Now 👇=====
 - 🔧 个人网站装修ing

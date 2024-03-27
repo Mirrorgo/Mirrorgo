@@ -38,10 +38,11 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Mirrorgo/mirrorgo/tree/master/",
         },
         blog: {
+          path: "./notes",
+          routeBasePath: "notes",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -69,9 +70,9 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Blog",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/notes", label: "Notes", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -79,38 +80,38 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Linkedin",
-              href: "https://www.linkedin.com/in/aaron-lee-107295295/",
-            },
-            {
-              label: "Yuque",
-              href: "https://www.yuque.com/lalala-wm82o",
-            },
-            {
-              label: "Github",
-              href: "https://github.com/Mirrorgo",
-            },
-          ],
-        },
-      ],
-      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+    // footer: {
+    //   style: "dark",
+    //   links: [
+    //     {
+    //       title: "Docs",
+    //       items: [
+    //         {
+    //           label: "Tutorial",
+    //           to: "/docs/intro",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: "More",
+    //       items: [
+    //         {
+    //           label: "Linkedin",
+    //           href: "https://www.linkedin.com/in/aaron-lee-107295295/",
+    //         },
+    //         {
+    //           label: "Yuque",
+    //           href: "https://www.yuque.com/lalala-wm82o",
+    //         },
+    //         {
+    //           label: "Github",
+    //           href: "https://github.com/Mirrorgo",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    //   // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    // },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

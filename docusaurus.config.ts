@@ -80,6 +80,12 @@ const config: Config = {
         },
       ],
     },
+    announcementBar: {
+      id: "support_us",
+      content: "Under construction!🚧 Stay tuned!",
+      backgroundColor: "#ff6600",
+      // textColor: "#091E42",
+    },
     // footer: {
     //   style: "dark",
     //   links: [

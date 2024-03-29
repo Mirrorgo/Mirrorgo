@@ -12,7 +12,7 @@ sidebar_position: 2
   - slice(start,end) -- create a new array by copying elements from index `start` to index `end`(excluding `end`)
   - concat(...items) -- return a new array: copy all elements from the current array and append items to it. If any item in items is an array, its elements are taken.
 - search element
-  - indexOf/lastIndexOf(item,pos)
+  - indexOf/lastIndexOf(searchElement, fromIndex)-- from `fromIndex`, return index of searched element
   - includes(value)
   - find/filter(func)
   - findIndex

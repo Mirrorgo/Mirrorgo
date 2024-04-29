@@ -1,6 +1,8 @@
 
 ===== Now 👇=====
 - 🔧 个人网站装修ing
+- 📚 学习 nest, haskell 等知识
+
 
 ---
 
@@ -14,7 +16,7 @@
 ===
 
 - 😭 实习没有hc了，离职开始准备秋招
-- 👀 个人的笔记在[语雀](https://www.yuque.com/lalala-wm82o/qvhwgq/cr9g9g)
+- 👀 个人的笔记在[语雀](https://www.yuque.com/mirrorgo/qvhwgq)
 - ❗ github最近也没有打理，在准备面试相关的东西。今年秋招貌似挺难的，虽然我刚开始投递
 
 ===

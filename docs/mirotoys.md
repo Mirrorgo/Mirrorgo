@@ -1,6 +1,0 @@
-- unimelb-top
-  - https://www.unimelb.top/
-- mirodesk
-  - https://mirodesk.unimelb.top/
-- local test
-  - http://localhost:3000/

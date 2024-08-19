@@ -1,4 +1,10 @@
-===== Now 👇=====
+👨‍💻 Hi, I'm Mirrorgo! I'm a passionate web developer with expertise in building high-quality applications using React, TypeScript, and modern frontend technologies. I have a keen eye for clean, maintainable code and a deep understanding of responsive design principles.
+
+🏢 With experience working at a large software company, I bring both technical skills and a collaborative mindset to every project. I'm also well-versed in frameworks like Next.js and Tailwind CSS, enabling me to create fast, efficient, and scalable websites.
+
+💼 Feel free to explore my repositories and get in touch if you'd like to collaborate!
+
+<!-- ===== Now 👇=====
 - 📓 开学学习
 - 💪 假期播放器没做完，学了很多，还得继续做
 - 🧠考虑准备面试知识了 
@@ -30,7 +36,7 @@
 
 - 🌱 最近在学习Nodejs和富文本编辑器(slatejs)相关的知识
 - 📫 如果有事找我, 可以在👉"[留言板](https://github.com/Mirrorgo/async-chat/issues/1)"下留言
-- 🤔 最近在网易实习, 写的代码都在公司的gitlab上, 所以github活动较少
+- 🤔 最近在网易实习, 写的代码都在公司的gitlab上, 所以github活动较少 -->
 <!--
 **Mirrorgo/mirrorgo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

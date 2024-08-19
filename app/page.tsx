@@ -1,79 +1,20 @@
-"use client";
 import React, { Fragment } from "react";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import TechStackList from "./components/tech-stack-list";
+import NavItem from "./components/nav-item";
+import Section from "./components/section";
 
-// const NavItem: React.FC<{ label: string; href: string }> = ({
-//   label,
-//   href,
-// }) => (
-//   <Link href={href} passHref>
-//     <div className="cursor-pointer hover:text-blue-600 transition-colors duration-200">
-//       {label}
-//     </div>
-//   </Link>
-// );
-
-const NavItem: React.FC<{ label: string; href: string }> = ({
-  label,
-  href,
-}) => {
-  // 判断 href 是否是外部链接
-  const isExternal =
-    href.startsWith("http") ||
-    href.startsWith("mailto") ||
-    href.startsWith("tel");
-
-  if (isExternal) {
-    return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer" // 推荐与 target="_blank" 一起使用，以提高安全性
-        className="cursor-pointer hover:text-blue-600 transition-colors duration-200"
-      >
-        {label}
-      </a>
-    );
-  }
-
-  return (
-    <Link href={href} passHref>
-      <div className="cursor-pointer hover:text-blue-600 transition-colors duration-200">
-        {label}
-      </div>
-    </Link>
-  );
-};
-
-// 定义部分类型
-
-// 定义Section组件的props类型
-interface SectionProps {
-  title: string;
-  id: string; // 新增 id 属性
-  children: React.ReactNode;
-}
-
-// 封装Section组件
-const Section: React.FC<SectionProps> = ({ title, id, children }) => (
-  <div id={id} className="min-h-screen p-6">
-    <h2 className="text-2xl font-bold mb-4">{title}</h2>
-    {children}
-  </div>
-);
+// 导航项数据
+const navItems: { label: string; href: string }[] = [
+  { label: "Home", href: "#home" }, // 关键成就的数据，以后多了放放 | 近期动向
+  { label: "About Me", href: "#aboutMe" },
+  { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact Me", href: "#contactMe" },
+];
 
 function Page() {
-  // 导航项数据
-  const navItems: { label: string; href: string }[] = [
-    { label: "Home", href: "#home" },
-    { label: "About Me", href: "#aboutMe" },
-    { label: "Experience", href: "#experience" },
-    { label: "Projects", href: "#projects" },
-    { label: "Contact Me", href: "#contactMe" },
-  ];
-
   return (
     <main className="min-h-screen">
       {/* 顶栏 */}
@@ -100,6 +41,7 @@ function Page() {
               />
             </div>
             <div className="text-right">theme</div>
+            {/* <div className="text-right">language</div> */}
           </div>
         </div>
       </nav>

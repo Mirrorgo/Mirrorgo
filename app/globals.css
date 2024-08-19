@@ -58,8 +58,8 @@
     --chart-5: 340 75% 55%;
   }
 
-  /* 全局锚点跳转平滑滚动 */
   html {
+    /* 全局锚点跳转平滑滚动 */
     scroll-behavior: smooth;
   }
 }

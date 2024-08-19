@@ -33,7 +33,7 @@ function Page() {
   return (
     <main className="min-h-screen">
       {/* 顶栏 */}
-      <nav className="sticky top-0 bg-white shadow-md z-10 h-10 flex items-center">
+      <nav className="sticky top-0 shadow-md z-10 h-10 flex items-center">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 flex justify-between w-full">
           <div className="flex">
             <BrandLogo />

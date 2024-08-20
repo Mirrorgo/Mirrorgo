@@ -6,9 +6,7 @@ import NavItem from "./components/nav-item";
 import Section from "./components/section";
 import Image from "next/image";
 import { Languages, Moon, Sun } from "lucide-react";
-import { Toggle } from "@/components/ui/toggle";
 import { Button } from "@/components/ui/button";
-import IconSwitcher from "@/components/icon-switcher";
 import { ModeToggle } from "./components/mode-toggle";
 
 // 导航项数据
@@ -55,9 +53,9 @@ function Page() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <Toggle aria-label="Toggle language" size="sm">
-              <Languages size="20" />
-            </Toggle>
+            <Button size="icon" variant="ghost">
+              <Languages />
+            </Button>
             {/* <IconSwitcher
               selectedIconIndex={0}
               onClick={() => {}}
@@ -93,7 +91,6 @@ function Page() {
       <Section title="Contact Me" id="contactMe">
         <p>Content for Contact Me section.</p>
       </Section>
-      <div id="test">wow</div>
     </main>
   );
 }

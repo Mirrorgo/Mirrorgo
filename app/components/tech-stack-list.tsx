@@ -16,7 +16,6 @@ function TechStackList() {
       <TechCard description="React"></TechCard>
       <TechCard description="Zustand"></TechCard>
       <TechCard description="Jotai"></TechCard>
-      <TechCard description="ahooks"></TechCard>
       <TechCard description="React Router"></TechCard>
       <TechCard description="Shadcn/UI"></TechCard>
       <TechCard description="Ant Design / Ant Design Pro"></TechCard>
@@ -29,16 +28,13 @@ function TechStackList() {
       <TechCard description="Prisma"></TechCard>
       <TechCard description="ECharts"></TechCard>
       <TechCard description="pnpm"></TechCard>
-      <TechCard description="Yarn"></TechCard>
       <TechCard description="ESLint"></TechCard>
       <TechCard description="Prettier"></TechCard>
       <TechCard description="Slate.js"></TechCard>
-      <TechCard description="WangEditor"></TechCard>
       <TechCard description="Docusaurus"></TechCard>
       <TechCard description="Howler.js"></TechCard>
       <TechCard description="Serwist"></TechCard>
       <TechCard description="Nginx"></TechCard>
-      <TechCard description="Dumi"></TechCard>
     </>
   );
 }

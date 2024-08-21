@@ -8,6 +8,7 @@ import Image from "next/image";
 import { Languages, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./components/mode-toggle";
+import ExperienceList from "./components/experience-list";
 
 // 导航项数据
 const navItems: { label: string; href: string }[] = [
@@ -31,7 +32,7 @@ function Page() {
   return (
     <main className="min-h-screen">
       {/* 顶栏 */}
-      <nav className="sticky top-0 shadow-md z-10 h-10 flex items-center">
+      <nav className="sticky top-0 shadow-md z-10 h-10 flex items-center bg-white dark:bg-black bg-opacity-100 dark:bg-opacity-100">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 flex justify-between w-full">
           <div className="flex">
             <BrandLogo />
@@ -83,8 +84,9 @@ function Page() {
         </div>
       </Section>
       <Section title="Experience" id="experience">
-        <p>Content for Experience section.</p>
+        <ExperienceList />
       </Section>
+
       <Section title="Projects" id="projects">
         <p>Content for Projects section.</p>
       </Section>

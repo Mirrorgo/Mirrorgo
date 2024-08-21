@@ -77,10 +77,9 @@ function Page() {
             Full-stack engineer with a strong focus on front-end development,
             dedicated to optimizing user experience and performance.
           </p>
-          <p className="font-bold">Proficient in:</p>
-          <p>
+          <div>
             <TechStackList />
-          </p>
+          </div>
         </div>
       </Section>
       <Section title="Experience" id="experience">

@@ -86,9 +86,9 @@ function ExperienceList() {
             <li>
               Ranked 13th in the final evaluation of ByteDance YouthCamp. The
               project idea attracted the interest of the judges, leading to an
-              in-depth discussion with ByteDance's Juejin product managers after
-              the evaluation. This was followed by a one-hour video meeting to
-              explore the ideas around the Juejin extension and its
+              in-depth discussion with ByteDance&apos;s Juejin product managers
+              after the evaluation. This was followed by a one-hour video
+              meeting to explore the ideas around the Juejin extension and its
               collaborative model.
             </li>
           </ul>

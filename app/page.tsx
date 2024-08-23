@@ -2,6 +2,7 @@ import TechStackList from "./components/tech-stack-list";
 import Section from "./components/section";
 import ExperienceList from "./components/experience-list";
 import NavBar from "./components/NavBar";
+import { Github, Linkedin } from "lucide-react";
 
 function Page() {
   return (
@@ -9,9 +10,9 @@ function Page() {
       {/* 顶栏 */}
       <NavBar />
       {/* 内容部分 */}
-      <Section title="Home" id="home">
+      {/* <Section title="Home" id="home">
         <p>Content for Home section.</p>
-      </Section>
+      </Section> */}
       <Section title="About Me" id="aboutMe">
         <div>
           <p>
@@ -27,11 +28,8 @@ function Page() {
         <ExperienceList />
       </Section>
 
-      <Section title="Projects" id="projects">
+      <Section title="Demos" id="demos">
         <p>Content for Projects section.</p>
-      </Section>
-      <Section title="Contact Me" id="contactMe">
-        <p>Content for Contact Me section.</p>
       </Section>
     </main>
   );

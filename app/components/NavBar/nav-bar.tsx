@@ -4,7 +4,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { AlignJustify, Languages } from "lucide-react";
+import { AlignJustify, Github, Languages, Linkedin } from "lucide-react";
 
 import { Separator } from "@/components/ui/separator";
 import { Fragment } from "react";
@@ -16,11 +16,10 @@ import { ModeToggle } from "./mode-toggle";
 
 // 导航项数据
 const navItems: { label: string; href: string }[] = [
-  { label: "Home", href: "#home" }, // 关键成就的数据，以后多了放放 | 近期动向 | 超级简短介绍
+  // { label: "Home", href: "#home" }, // 关键成就的数据，以后多了放放 | 近期动向 | 超级简短介绍
   { label: "About Me", href: "#aboutMe" },
   { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact Me", href: "#contactMe" },
+  { label: "Demos", href: "#demos" },
 ];
 
 const moreNavItem = {
@@ -59,6 +58,27 @@ function NavBar() {
             </div>
           </div>
           <div className="flex items-center gap-2">
+            <div className="flex items-center">
+              <a
+                href="https://www.linkedin.com/in/mirrorgo/"
+                target="_blank"
+                rel="noopener noreferrer" // 推荐与 target="_blank" 一起使用，以提高安全性
+              >
+                <Button size="icon" variant="ghost" className="rounded-full">
+                  <Linkedin size={18} />
+                </Button>
+              </a>
+              <a
+                href="https://github.com/Mirrorgo"
+                target="_blank"
+                rel="noopener noreferrer" // 推荐与 target="_blank" 一起使用，以提高安全性
+              >
+                <Button size="icon" variant="ghost" className="rounded-full">
+                  <Github size={18} />
+                </Button>
+              </a>
+            </div>
+            <Separator orientation="vertical" className="h-5" />
             <Button size="icon" variant="ghost">
               <Languages />
             </Button>
@@ -93,6 +113,27 @@ function NavBar() {
               <DropdownMenuItem asChild>
                 <NavItem label={moreNavItem.label} href={moreNavItem.href} />
               </DropdownMenuItem>
+              <div className="flex">
+                <a
+                  href="https://www.linkedin.com/in/mirrorgo/"
+                  target="_blank"
+                  rel="noopener noreferrer" // 推荐与 target="_blank" 一起使用，以提高安全性
+                >
+                  <Button size="icon" variant="ghost" className="rounded-full">
+                    <Linkedin size={18} />
+                  </Button>
+                </a>
+
+                <a
+                  href="https://github.com/Mirrorgo"
+                  target="_blank"
+                  rel="noopener noreferrer" // 推荐与 target="_blank" 一起使用，以提高安全性
+                >
+                  <Button size="icon" variant="ghost" className="rounded-full">
+                    <Github size={18} />
+                  </Button>
+                </a>
+              </div>
               <div className="flex justify-evenly">
                 <ModeToggle />
                 <Button size="icon" variant="ghost">

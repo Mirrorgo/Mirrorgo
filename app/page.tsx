@@ -28,7 +28,7 @@ function Page() {
         <ExperienceList />
       </Section>
 
-      <Section title="Demos" id="demos">
+      <Section title="Projects" id="projects">
         <p>Content for Projects section.</p>
       </Section>
     </main>

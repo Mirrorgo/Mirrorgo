@@ -100,6 +100,19 @@ function TechStackList() {
       </Accordion>
       <Heading>Other Technologies</Heading>
       <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="languages">
+          <AccordionTrigger>Languages</AccordionTrigger>
+          <AccordionContent>
+            <TechCard description="Haskell"></TechCard>
+            <TechCard description="Kotlin"></TechCard>
+            <TechCard description="C"></TechCard>
+            <TechCard description="Alloy"></TechCard>
+            <TechCard description="Ada"></TechCard>
+            <TechCard description="Netlogo"></TechCard>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="other">
           <AccordionTrigger>Other</AccordionTrigger>
           <AccordionContent>

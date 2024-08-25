@@ -12,7 +12,7 @@ type FamiliarityLevel = 1 | 2 | 3;
 type TechCardProps = {
   children?: ReactNode; // Make children optional
   description: string;
-  familiarityLevel?: FamiliarityLevel;
+  level?: FamiliarityLevel;
 };
 
 // FamiliarityMeter Component
@@ -37,17 +37,13 @@ const FamiliarityMeter = ({ level }: { level: FamiliarityLevel }) => {
   );
 };
 
-function TechCard({
-  children,
-  description,
-  familiarityLevel = 3,
-}: TechCardProps) {
+function TechCard({ children, description, level = 3 }: TechCardProps) {
   return (
     <HoverCard>
       <HoverCardTrigger asChild>
         <Button variant="link">
           {description}
-          <FamiliarityMeter level={familiarityLevel} />
+          <FamiliarityMeter level={level} />
         </Button>
       </HoverCardTrigger>
       {/* Conditionally render HoverCardContent based on children */}

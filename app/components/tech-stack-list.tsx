@@ -18,10 +18,10 @@ function TechStackList() {
         <AccordionItem value="basic-technologies">
           <AccordionTrigger>Basic Technologies and Framework</AccordionTrigger>
           <AccordionContent>
-            <TechCard description="HTML" familiarityLevel={1}></TechCard>
+            <TechCard description="HTML"></TechCard>
             <TechCard description="CSS"></TechCard>
             <TechCard description="Javascript"></TechCard>
-            <TechCard description="Typescript"></TechCard>
+            <TechCard description="Typescript" level={2}></TechCard>
             <TechCard description="React"></TechCard>
             <TechCard description="Next.js"></TechCard>
           </AccordionContent>
@@ -42,15 +42,15 @@ function TechStackList() {
           <AccordionContent>
             <TechCard description="Shadcn"></TechCard>
             <TechCard description="Ant Design / Ant Design Pro"></TechCard>
-            <TechCard description="MUI"></TechCard>
+            <TechCard description="MUI" level={1}></TechCard>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="state-management">
           <AccordionTrigger>State Management</AccordionTrigger>
           <AccordionContent>
             <TechCard description="Zustand"></TechCard>
-            <TechCard description="Jotai"></TechCard>
-            <TechCard description="Redux"></TechCard>
+            <TechCard description="Jotai" level={2}></TechCard>
+            <TechCard description="Redux" level={1}></TechCard>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="scaffold-and-build-tools-and-test">
@@ -58,23 +58,23 @@ function TechStackList() {
           <AccordionContent>
             <TechCard description="Vite"></TechCard>
             <TechCard description="pnpm"></TechCard>
-            <TechCard description="Husky"></TechCard>
-            <TechCard description="ESLint"></TechCard>
+            <TechCard description="Husky" level={2}></TechCard>
+            <TechCard description="ESLint" level={1}></TechCard>
             <TechCard description="Prettier"></TechCard>
-            <TechCard description="Jest"></TechCard>
-            <TechCard description="Vitest"></TechCard>
+            <TechCard description="Jest" level={1}></TechCard>
+            <TechCard description="Vitest" level={1}></TechCard>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="other">
           <AccordionTrigger>Other Frontend Technologies</AccordionTrigger>
           <AccordionContent>
-            <TechCard description="ECharts"></TechCard>
-            <TechCard description="D3"></TechCard>
-            <TechCard description="Slate.js"></TechCard>
+            <TechCard description="ECharts" level={2}></TechCard>
+            <TechCard description="D3" level={1}></TechCard>
+            <TechCard description="Slate.js" level={2}></TechCard>
             <TechCard description="Docusaurus"></TechCard>
-            <TechCard description="Howler.js"></TechCard>
-            <TechCard description="Serwist"></TechCard>
-            <TechCard description="Dnd Kit"></TechCard>
+            <TechCard description="Howler.js" level={2}></TechCard>
+            <TechCard description="Serwist" level={1}></TechCard>
+            <TechCard description="Dnd Kit" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -83,7 +83,7 @@ function TechStackList() {
         <AccordionItem value="javascript">
           <AccordionTrigger>Javascript</AccordionTrigger>
           <AccordionContent>
-            <TechCard description="Node"></TechCard>
+            <TechCard description="Node" level={2}></TechCard>
             <TechCard description="NestJS"></TechCard>
             <TechCard description="Express"></TechCard>
             <TechCard description="Prisma"></TechCard>
@@ -92,9 +92,9 @@ function TechStackList() {
         <AccordionItem value="java-and-python">
           <AccordionTrigger>Java & Python</AccordionTrigger>
           <AccordionContent>
-            <TechCard description="SpringBoot"></TechCard>
-            <TechCard description="MyBatis/MyBatis-Plus"></TechCard>
-            <TechCard description="Flask"></TechCard>
+            <TechCard description="SpringBoot" level={2}></TechCard>
+            <TechCard description="MyBatis/MyBatis-Plus" level={2}></TechCard>
+            <TechCard description="Flask" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -103,12 +103,12 @@ function TechStackList() {
         <AccordionItem value="languages">
           <AccordionTrigger>Languages</AccordionTrigger>
           <AccordionContent>
-            <TechCard description="Haskell"></TechCard>
-            <TechCard description="Kotlin"></TechCard>
-            <TechCard description="C"></TechCard>
-            <TechCard description="Alloy"></TechCard>
-            <TechCard description="Ada"></TechCard>
-            <TechCard description="Netlogo"></TechCard>
+            <TechCard description="Haskell" level={2}></TechCard>
+            <TechCard description="Kotlin" level={1}></TechCard>
+            <TechCard description="C" level={1}></TechCard>
+            <TechCard description="Alloy" level={1}></TechCard>
+            <TechCard description="Ada" level={1}></TechCard>
+            <TechCard description="Netlogo" level={1}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -120,8 +120,8 @@ function TechStackList() {
             <TechCard description="Linux"></TechCard>
             <TechCard description="Nginx"></TechCard>
             <TechCard description="WSL"></TechCard>
-            <TechCard description="Docker"></TechCard>
-            <TechCard description="Curl"></TechCard>
+            <TechCard description="Docker" level={2}></TechCard>
+            <TechCard description="curl" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>

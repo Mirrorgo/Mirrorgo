@@ -18,7 +18,7 @@ function TechStackList() {
         <AccordionItem value="basic-technologies">
           <AccordionTrigger>Basic Technologies and Framework</AccordionTrigger>
           <AccordionContent>
-            <TechCard description="HTML"></TechCard>
+            <TechCard description="HTML" familiarityLevel={1}></TechCard>
             <TechCard description="CSS"></TechCard>
             <TechCard description="Javascript"></TechCard>
             <TechCard description="Typescript"></TechCard>

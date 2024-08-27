@@ -3,6 +3,7 @@ import Section from "./components/section";
 import ExperienceList from "./components/experience-list";
 import NavBar from "./components/NavBar";
 import { Github, Linkedin } from "lucide-react";
+import ProjectList from "./components/project-list";
 
 function Page() {
   return (
@@ -29,8 +30,11 @@ function Page() {
       </Section>
 
       <Section title="Projects" id="projects">
-        <p>Content for Projects section.</p>
+        <ProjectList />
       </Section>
+      {/* <Section title="Open Source Contribution" id="openSourceContribution">
+        <p>Content for Open Source Contribution section.</p>
+      </Section> */}
     </main>
   );
 }

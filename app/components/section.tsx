@@ -7,7 +7,7 @@ interface SectionProps {
 
 // 封装Section组件
 const Section: React.FC<SectionProps> = ({ title, id, children }) => (
-  <div id={id} className="min-h-24 p-6 scroll-mt-[40px]">
+  <div id={id} className="w-4/6 min-h-24 mx-auto scroll-mt-[45px] mt-5">
     <h2 className="text-2xl font-bold mb-4">{title}</h2>
     {children}
   </div>

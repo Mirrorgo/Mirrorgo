@@ -8,7 +8,7 @@ import TechCard from "./tech-card";
 import { ReactNode } from "react";
 function TechStackList() {
   return (
-    <div className="w-5/6 md:w-3/4 mx-auto">
+    <div className="p-2">
       <Heading>Frontend Technologies</Heading>
       {/* TODO */}
       {/* 关键技术在上面显示图标和文字，点击跳转展开accordion */}
@@ -24,6 +24,7 @@ function TechStackList() {
             <TechCard description="Typescript" level={2}></TechCard>
             <TechCard description="React"></TechCard>
             <TechCard description="Next.js"></TechCard>
+            <TechCard description="Vue.js" level={1}></TechCard>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="css">
@@ -103,6 +104,7 @@ function TechStackList() {
         <AccordionItem value="languages">
           <AccordionTrigger>Languages</AccordionTrigger>
           <AccordionContent>
+            <TechCard description="Prolog" level={2}></TechCard>
             <TechCard description="Haskell" level={2}></TechCard>
             <TechCard description="Kotlin" level={1}></TechCard>
             <TechCard description="C" level={1}></TechCard>

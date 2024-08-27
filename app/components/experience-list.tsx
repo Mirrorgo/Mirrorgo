@@ -9,7 +9,7 @@ import {
 
 function ExperienceList() {
   return (
-    <div className="flex space-x-8 flex-col md:flex-row">
+    <div className="flex flex-col gap-4 lg:flex-row">
       <Card className="flex-1">
         <CardHeader>
           <CardTitle>NetEase Youdao (10k+ employees)</CardTitle>

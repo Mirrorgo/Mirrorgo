@@ -98,11 +98,18 @@ function TechStackList() {
             <TechCard description="Flask" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
+        <AccordionItem value="database">
+          <AccordionTrigger>Database</AccordionTrigger>
+          <AccordionContent>
+            <TechCard description="MySQL" level={1}></TechCard>
+            <TechCard description="PostgreSQL" level={1}></TechCard>
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
       <Heading>Other Technologies</Heading>
       <Accordion type="single" collapsible className="w-full">
-        <AccordionItem value="languages">
-          <AccordionTrigger>Languages</AccordionTrigger>
+        <AccordionItem value="other-languages">
+          <AccordionTrigger>Other Languages</AccordionTrigger>
           <AccordionContent>
             <TechCard description="Prolog" level={2}></TechCard>
             <TechCard description="Haskell" level={2}></TechCard>

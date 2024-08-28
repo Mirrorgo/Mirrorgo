@@ -59,6 +59,7 @@ function TechStackList() {
           <AccordionContent>
             <TechCard description="Vite"></TechCard>
             <TechCard description="pnpm"></TechCard>
+            <TechCard description="yarn"></TechCard>
             <TechCard description="Husky" level={2}></TechCard>
             <TechCard description="ESLint" level={1}></TechCard>
             <TechCard description="Prettier"></TechCard>
@@ -76,6 +77,7 @@ function TechStackList() {
             <TechCard description="Howler.js" level={2}></TechCard>
             <TechCard description="Serwist" level={1}></TechCard>
             <TechCard description="Dnd Kit" level={2}></TechCard>
+            <TechCard description="Monaco Editor" level={1}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>

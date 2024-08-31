@@ -78,6 +78,10 @@ function TechStackList() {
             <TechCard description="Serwist" level={1}></TechCard>
             <TechCard description="Dnd Kit" level={2}></TechCard>
             <TechCard description="Monaco Editor" level={1}></TechCard>
+            <TechCard description="Slidev" level={2}></TechCard>
+            <TechCard description="React Router" level={2}></TechCard>
+            <TechCard description="Immer" level={2}></TechCard>
+            <TechCard description="Puppeteer" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -90,6 +94,8 @@ function TechStackList() {
             <TechCard description="NestJS"></TechCard>
             <TechCard description="Express"></TechCard>
             <TechCard description="Prisma"></TechCard>
+            <TechCard description="pm2" level={2}></TechCard>
+            <TechCard description="zx" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="java-and-python">
@@ -97,6 +103,7 @@ function TechStackList() {
           <AccordionContent>
             <TechCard description="SpringBoot" level={2}></TechCard>
             <TechCard description="MyBatis/MyBatis-Plus" level={2}></TechCard>
+            <TechCard description="JUnit" level={1}></TechCard>
             <TechCard description="Flask" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>

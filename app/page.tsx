@@ -28,13 +28,68 @@ function Page() {
       <Section title="Experience" id="experience">
         <ExperienceList />
       </Section>
+      <Section title="Open Source Contribution" id="openSourceContribution">
+        <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-6">
+          <p className="mb-4 text-lg font-semibold">My Contributions:</p>
+          <ul className="space-y-2">
+            <li className="flex items-center">
+              <Github className="mr-2 text-gray-600" />
+              <a
+                href="https://github.com/react-component/slider/pull/1041"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                react-component/slider - Pull Request #1041
+              </a>
+            </li>
+            <li className="flex items-center">
+              <Github className="mr-2 text-gray-600" />
+              <a
+                href="https://github.com/shadcn-ui/ui/pull/4519"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                shadcn-ui/ui - Pull Request #4519
+              </a>
+            </li>
+            <li className="flex items-center">
+              <Github className="mr-2 text-gray-600" />
+              <a
+                href="https://github.com/Rain120/athena/pull/4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Rain120/athena - Pull Request #4
+              </a>
+            </li>
+          </ul>
+        </div>
 
+        <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+          <p className="mb-4 text-lg font-semibold">My Project:</p>
+          <div className="flex items-center">
+            <Github className="mr-2 text-gray-600" />
+            <a
+              href="https://github.com/Mirrorgo/vite-react-crx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              vite-react-crx - Scaffolding Tool for Chrome Extensions
+            </a>
+          </div>
+          <p className="mt-2 text-gray-700">
+            A scaffolding tool that simplifies the process of developing Chrome
+            extensions using React and Vite.
+          </p>
+        </div>
+      </Section>
       <Section title="Projects" id="projects">
         <ProjectList />
       </Section>
-      {/* <Section title="Open Source Contribution" id="openSourceContribution">
-        <p>Content for Open Source Contribution section.</p>
-      </Section> */}
     </main>
     // {/*
     // snippet 一些可以公开的代码片段

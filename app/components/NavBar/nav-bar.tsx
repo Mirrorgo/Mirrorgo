@@ -19,6 +19,7 @@ const navItems: { label: string; href: string }[] = [
   // { label: "Home", href: "#home" }, // 关键成就的数据，以后多了放放 | 近期动向 | 超级简短介绍
   { label: "About Me", href: "#aboutMe" },
   { label: "Experience", href: "#experience" },
+  { label: "Open Source", href: "#openSourceContribution" },
   { label: "Projects", href: "#projects" },
 ];
 

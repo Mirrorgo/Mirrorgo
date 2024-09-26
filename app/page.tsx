@@ -36,6 +36,9 @@ function Page() {
         <p>Content for Open Source Contribution section.</p>
       </Section> */}
     </main>
+    // {/*
+    // snippet 一些可以公开的代码片段
+    //  */}
   );
 }
 export default Page;

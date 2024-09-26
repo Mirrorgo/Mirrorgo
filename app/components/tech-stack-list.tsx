@@ -141,6 +141,9 @@ function TechStackList() {
             <TechCard description="Docker" level={2}></TechCard>
             <TechCard description="curl" level={2}></TechCard>
             <TechCard description="WordPress" level={1}></TechCard>
+            <TechCard description="Postman" level={2}></TechCard>
+            <TechCard description="Github"></TechCard>
+            <TechCard description="Gitlab" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
       </Accordion>

@@ -44,6 +44,7 @@ function TechStackList() {
             <TechCard description="Shadcn"></TechCard>
             <TechCard description="Ant Design / Ant Design Pro"></TechCard>
             <TechCard description="MUI" level={1}></TechCard>
+            <TechCard description="Radix UI" level={2}></TechCard>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="state-management">
@@ -73,6 +74,7 @@ function TechStackList() {
             <TechCard description="ECharts" level={2}></TechCard>
             <TechCard description="D3" level={1}></TechCard>
             <TechCard description="Slate.js" level={2}></TechCard>
+            <TechCard description="MDX" level={2}></TechCard>
             <TechCard description="Docusaurus"></TechCard>
             <TechCard description="Howler.js" level={2}></TechCard>
             <TechCard description="Serwist" level={1}></TechCard>

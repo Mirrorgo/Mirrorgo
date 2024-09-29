@@ -23,10 +23,16 @@ const navItems: { label: string; href: string }[] = [
   { label: "Projects", href: "#projects" },
 ];
 
-const moreNavItem = {
-  label: "Blog",
-  href: "https://www.yuque.com/mirrorgo/qvhwgq",
-};
+const moreNavItems = [
+  {
+    label: "Codecho",
+    href: "https://codecho.vercel.app/",
+  },
+  {
+    label: "Blog",
+    href: "https://www.yuque.com/mirrorgo/qvhwgq",
+  },
+];
 
 const BrandLogo = () => (
   <Link href="/" passHref>
@@ -54,8 +60,12 @@ function NavBar() {
                 </Fragment>
               ))}
               {/* 更多的链接 */}
-              <Separator orientation="vertical" className="h-6" />
-              <NavItem label={moreNavItem.label} href={moreNavItem.href} />
+              {moreNavItems.map((item, index) => (
+                <Fragment key={item.href}>
+                  <Separator orientation="vertical" className="h-6" />
+                  <NavItem label={item.label} href={item.href} />
+                </Fragment>
+              ))}
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -111,9 +121,11 @@ function NavBar() {
                   />
                 </DropdownMenuItem>
               ))}
-              <DropdownMenuItem asChild>
-                <NavItem label={moreNavItem.label} href={moreNavItem.href} />
-              </DropdownMenuItem>
+              {moreNavItems.map((item, idx) => (
+                <DropdownMenuItem asChild key={idx}>
+                  <NavItem label={item.label} href={item.href} />
+                </DropdownMenuItem>
+              ))}
               <div className="flex">
                 <a
                   href="https://www.linkedin.com/in/mirrorgo/"

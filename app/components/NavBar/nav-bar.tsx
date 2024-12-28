@@ -29,8 +29,12 @@ const moreNavItems = [
     href: "https://codecho.unimelb.top/",
   },
   {
+    label: "TreeScii",
+    href: "https://ascii-tree.unimelb.top/",
+  },
+  {
     label: "Blog",
-    href: "https://www.yuque.com/mirrorgo/qvhwgq",
+    href: "https://www.yuque.com/mirrorgo/blog",
   },
 ];
 

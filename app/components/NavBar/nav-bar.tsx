@@ -26,7 +26,7 @@ const navItems: { label: string; href: string }[] = [
 const moreNavItems = [
   {
     label: "Codecho",
-    href: "https://codecho.vercel.app/",
+    href: "https://codecho.unimelb.top/",
   },
   {
     label: "Blog",

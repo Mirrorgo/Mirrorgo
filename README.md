@@ -3,5 +3,5 @@ I’m a Product Engineer passionate about building useful and interesting softwa
 
 🌐 **Websites**:  
 - [Personal Website](https://www.unimelb.top/)  
-- [TreeScii - ASCII Tree Generator](https://ascii-tree.unimelb.top/)  
+- [TreeScii - ASCII Tree Generator](https://ascii-tree.mirotoys.com/)  
 - [Blog on Yuque](https://www.yuque.com/mirrorgo/blog)
